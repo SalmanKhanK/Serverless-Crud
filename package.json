@@ -16,8 +16,15 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "faunadb": "^4.0.0",
+    "formik": "^2.2.6",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-material-ui": "^2.1.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^2.0.2"
   }
 }
