@@ -19,9 +19,9 @@ const IndexPage = () => {
         console.log("Data",JSON.stringify(data))        
       });
     })()
-  }, [state]);
-  // console.log(state);
-  // console.log(GetAllMsg)
+  },);
+   console.log(state);
+   console.log(GetAllMsg)
   const handleDelete=(id,isDelete)=>{
     if(!isDelete){
       setDeletState(true)
