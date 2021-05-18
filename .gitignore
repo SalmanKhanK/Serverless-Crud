@@ -6,5 +6,6 @@ public
 .env.development.local
 .env.test.local
 .env.production.local
-/.netlify
+.env
+.netlify/
 
