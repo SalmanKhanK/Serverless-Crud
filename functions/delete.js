@@ -5,7 +5,7 @@ q=faunadb.query;
 
 const handler = async (event,context) => {
   try {
-    var client = new faunadb.Client({ secret: process.env.Faunadb_secret });
+    var client = new faunadb.Client({ secret: "fnAD92ORUHACB-5Rlv7tS-tNSyVyreWPPP20141u" });
     let reqObj = JSON.parse(event.body);
     var result = await client.query(
         q.Delete(
